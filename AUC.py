@@ -34,13 +34,13 @@ y=data1.values[:,0]
 # X=data3.values[:,1:]
 # y=data3.values[:,0]
 ###### Devide data to test and train
-
+X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.2,random_state=25)
 
 #preprocessing
 
 scaler = preprocessing.StandardScaler().fit(X)
-X_train_transformed = scaler.transform(X)
-X_test_transformed = scaler.transform(X)
+X_train_transformed = scaler.transform(X_train)
+X_test_transformed = scaler.transform(X_test)
 X_transformed = scaler.transform(X)
 
 
