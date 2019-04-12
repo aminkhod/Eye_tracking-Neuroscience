@@ -31,9 +31,11 @@ data3.dropna(inplace=True)
 
 X=data1.values[:,2:]
 y=data1.values[:,1]
+X = X.astype(np.float64)
+y = y.astype(np.float64)
 
-# X=data3.values[:,1:]
-# y=data3.values[:,0]
+# X=data3.values[:,2:]
+# y=data3.values[:,1]
 ###### Devide data to test and train
 X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.2,random_state=25)
 
@@ -50,10 +52,11 @@ loo = LeaveOneOut()
 loo.get_n_splits(X_transformed)
 loologreg = LogisticRegression()
 predicts=[]
+
 for train_index, test_index in loo.split(X):
    X_train, X_test = X_transformed[train_index], X_transformed[test_index]
    y_train, y_test = y[train_index], y[test_index]
-   loologregModel =loologreg.fit(X_train, y_train)
+   loologregModel =loologreg.fit(X_train, np.array(list(y_train)))
    predicts.append(loologreg.predict(X_test))
 
 predict = np.array(predicts)
