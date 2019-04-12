@@ -16,20 +16,21 @@ missing_value=["?", " "]
 data= pd.read_csv("eye-tracking.csv",na_values=missing_value, delimiter=",")
 
 print(data.isnull().sum())
-
+# CDT culomn is eliminated because this culomn is empty.
 ##removing missing values
 data.dropna(inplace=True)
+#16 row removed.
 print(data.shape)
 
 data1, data3 = data.copy(), data.copy()
-data1["group"] = np.array([1 if yins ==1 else 0 if yins == 2 else np.nan for yins in data1.values[:,0]])
-data3["group"] = np.array([1 if yins ==3 else 0 if yins == 2 else np.nan for yins in data3.values[:,0]])
+data1["group"] = np.array([1 if yins ==1 else 0 if yins == 2 else np.nan for yins in data1.values[:,1]])
+data3["group"] = np.array([1 if yins ==3 else 0 if yins == 2 else np.nan for yins in data3.values[:,1]])
 data1.dropna(inplace=True)
 data3.dropna(inplace=True)
 
 
-X=data1.values[:,1:]
-y=data1.values[:,0]
+X=data1.values[:,2:]
+y=data1.values[:,1]
 
 # X=data3.values[:,1:]
 # y=data3.values[:,0]
