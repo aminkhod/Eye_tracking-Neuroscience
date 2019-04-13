@@ -71,6 +71,7 @@
     <session id="120756152">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -123,7 +124,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eye-tracking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="468">
               <caret line="215" selection-start-line="215" selection-end-line="215" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -295,7 +296,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16071428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -310,7 +310,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info active="true" anchor="bottom" id="Debug" order="10" sideWeight="0.49925596" visible="true" weight="0.49436393" />
+      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.49925596" weight="0.49436393" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -629,7 +629,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eye-tracking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="468">
           <caret line="215" selection-start-line="215" selection-end-line="215" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
