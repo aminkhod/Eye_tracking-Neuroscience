@@ -125,8 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eye-tracking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2253">
-              <caret line="215" selection-end-line="215" selection-end-column="3" />
+            <state relative-caret-position="298">
+              <caret line="100" column="39" lean-forward="true" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -163,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="26" />
     <option name="width" value="1366" />
     <option name="height" value="742" />
@@ -296,7 +296,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16071428" />
@@ -631,8 +631,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eye-tracking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2253">
-          <caret line="215" selection-end-line="215" selection-end-column="3" />
+        <state relative-caret-position="298">
+          <caret line="100" column="39" lean-forward="true" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
