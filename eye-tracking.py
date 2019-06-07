@@ -13,7 +13,7 @@ from sklearn import svm
 
 ###reading data
 missing_value=["?", " "]
-data= pd.read_csv("eye-tracking.csv",na_values=missing_value, delimiter=",")
+data= pd.read_csv("c",na_values=missing_value, delimiter=",")
 
 print(data.isnull().sum())
 # CDT culomn is eliminated because this culomn is empty.
