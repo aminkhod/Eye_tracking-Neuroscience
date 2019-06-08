@@ -11,15 +11,15 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn import svm
 
 
-###reading data
-missing_value=["?", " "]
-data= pd.read_csv("c",na_values=missing_value, delimiter=",")
+### reading data
+missing_value = ["?", " "]
+data = pd.read_csv("computerized.csv", na_values=missing_value, delimiter=",")
 
 print(data.isnull().sum())
-# CDT culomn is eliminated because this culomn is empty.
-##removing missing values
+# CDT column is eliminated because this culomn is empty.
+# removing missing values
 data.dropna(inplace=True)
-#16 row removed.
+# 16 row removed.
 print(data.shape)
 
 data1, data3 = data.copy(), data.copy()
@@ -29,15 +29,15 @@ data1.dropna(inplace=True)
 data3.dropna(inplace=True)
 
 
-X=data1.values[:,2:]
-y=data1.values[:,1]
-X = X.astype(np.float64)
-y = y.astype(np.float64)
+X = data1.values[:,2:]
+y = data1.values[:,1]
+# X = X.astype(np.float64)
+# y = y.astype(np.float64)
 
 # X=data3.values[:,2:]
 # y=data3.values[:,1]
 ###### Devide data to test and train
-X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.2,random_state=25)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
 
 #preprocessing
