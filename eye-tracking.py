@@ -214,5 +214,4 @@ plt.title("Support Vector Machine ROC Curve")
 plt.legend(loc=4)
 plt.show()
 
-
 1+1
