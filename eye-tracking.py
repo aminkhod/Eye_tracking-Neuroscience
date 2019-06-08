@@ -35,15 +35,15 @@ data1.dropna(inplace=True)
 data3.dropna(inplace=True)
 
 
-X = data1.values[:, 2:]
-y = data1.values[:, 1]
-X = X.astype(np.float64)
-y = y.astype(np.float64)
-#
-# X = data3.values[:, 2:]
-# y = data3.values[:, 1]
+# X = data1.values[:, 2:]
+# y = data1.values[:, 1]
 # X = X.astype(np.float64)
 # y = y.astype(np.float64)
+
+X = data3.values[:, 2:]
+y = data3.values[:, 1]
+X = X.astype(np.float64)
+y = y.astype(np.float64)
 
 ###### Devide data to test and train
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
@@ -111,7 +111,7 @@ fpr, tpr, _ = metrics.roc_curve(y,  predict)
 auc = metrics.roc_auc_score(y, predict)
 print("Logestic Regression sensitivity = "+str(tpr)+"and Logestic Regression specificity = "+str(fpr))
 plt.plot(fpr,tpr,label="Logistic Regression, AUC = "+str(auc))
-plt.title("Logistic Regression ROC Curve")
+# plt.title("Logistic Regression ROC Curve")
 plt.legend(loc=4)
 plt.show()
 
@@ -149,7 +149,7 @@ plt.yticks(tick_marks, class_names)
 sns.heatmap(pd.DataFrame(cnf_matrix), annot=True, cmap="YlGnBu" ,fmt='g')
 ax.xaxis.set_label_position("top")
 plt.tight_layout()
-plt.title('Gaussian Naive Bayes Confusion matrix', y=1.1)
+# plt.title('Gaussian Naive Bayes Confusion matrix', y=1.1)
 plt.ylabel('Actual label')
 plt.xlabel('Predicted label')
 
@@ -206,7 +206,7 @@ plt.yticks(tick_marks, class_names)
 sns.heatmap(pd.DataFrame(cnf_matrix), annot=True, cmap="YlGnBu" ,fmt='g')
 ax.xaxis.set_label_position("top")
 plt.tight_layout()
-plt.title('Support Vector Machine Confusion matrix', y=1.1)
+# plt.title('Support Vector Machine Confusion matrix', y=1.1)
 plt.ylabel('Actual label')
 plt.xlabel('Predicted label')
 
