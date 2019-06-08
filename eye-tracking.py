@@ -11,10 +11,15 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn import svm
 
 
-
 ### reading data
+
+
 missing_value = ["?", " "]
 data = pd.read_csv("pencile.csv", na_values=missing_value, delimiter=",")
+
+
+
+
 
 print(data.isnull().sum())
 # CDT column is eliminated because this culomn is empty.
@@ -45,6 +50,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
 
 #preprocessing
+
 
 scaler = preprocessing.StandardScaler().fit(X)
 X_train_transformed = scaler.transform(X_train)
