@@ -28,15 +28,15 @@ data1.dropna(inplace=True)
 data3.dropna(inplace=True)
 
 
-# X = data1.values[:, 2:]
-# y = data1.values[:, 1]
-# X = X.astype(np.float64)
-# y = y.astype(np.float64)
-
-X = data3.values[:, 2:]
-y = data3.values[:, 1]
+X = data1.values[:, 2:]
+y = data1.values[:, 1]
 X = X.astype(np.float64)
 y = y.astype(np.float64)
+#
+# X = data3.values[:, 2:]
+# y = data3.values[:, 1]
+# X = X.astype(np.float64)
+# y = y.astype(np.float64)
 
 ###### Devide data to test and train
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
