@@ -113,7 +113,7 @@ print("Logestic Regression sensitivity = "+str(tpr)+"and Logestic Regression spe
 plt.plot(fpr,tpr,label="Logistic Regression, AUC = "+str(auc))
 # plt.title("Logistic Regression ROC Curve")
 plt.legend(loc=4)
-plt.show()
+# plt.show()
 
 ####GaussianNB
 
@@ -149,7 +149,7 @@ plt.yticks(tick_marks, class_names)
 sns.heatmap(pd.DataFrame(cnf_matrix), annot=True, cmap="YlGnBu" ,fmt='g')
 ax.xaxis.set_label_position("top")
 plt.tight_layout()
-# plt.title('Gaussian Naive Bayes Confusion matrix', y=1.1)
+plt.title('Gaussian Naive Bayes Confusion matrix', y=1.1)
 plt.ylabel('Actual label')
 plt.xlabel('Predicted label')
 
@@ -160,9 +160,9 @@ fpr, tpr, _ = metrics.roc_curve(y,  predict)
 auc = metrics.roc_auc_score(y, predict)
 print("Gaussian Naive Bayes sensitivity = "+str(tpr)+"and Gaussian Naive Bayes specificity = "+str(fpr))
 plt.plot(fpr,tpr,label="Gaussian Naive Bayes, AUC = "+str(auc))
-plt.title("Gaussian Naive Bayes ROC Curve")
+# plt.title("Gaussian Naive Bayes ROC Curve")
 plt.legend(loc=4)
-plt.show()
+# plt.show()
 
 
 
@@ -206,7 +206,7 @@ plt.yticks(tick_marks, class_names)
 sns.heatmap(pd.DataFrame(cnf_matrix), annot=True, cmap="YlGnBu" ,fmt='g')
 ax.xaxis.set_label_position("top")
 plt.tight_layout()
-# plt.title('Support Vector Machine Confusion matrix', y=1.1)
+plt.title('Support Vector Machine Confusion matrix', y=1.1)
 plt.ylabel('Actual label')
 plt.xlabel('Predicted label')
 
@@ -218,8 +218,8 @@ fpr, tpr, _ = metrics.roc_curve(y,  predict)
 auc = metrics.roc_auc_score(y, predict)
 print("SVM sensitivity = "+str(tpr)+"and SVM specificity = "+str(fpr))
 plt.plot(fpr,tpr,label="SVM, AUC = "+str(auc))
-plt.title("Support Vector Machine ROC Curve")
+# plt.title("Support Vector Machine ROC Curve")
 plt.legend(loc=4)
 plt.show()
 
-1+1
+print(1+1)

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="490d1037-bfc4-4313-b302-4a6dae77db61" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/eye-tracking.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/eye-tracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/eye-tracking.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eye-tracking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="241">
+              <caret line="224" column="10" selection-start-line="224" selection-start-column="10" selection-end-line="224" selection-end-column="10" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -412,6 +413,11 @@
           <line>216</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/eye-tracking.py</url>
+          <line>222</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -486,8 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eye-tracking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="241">
+          <caret line="224" column="10" selection-start-line="224" selection-start-column="10" selection-end-line="224" selection-end-column="10" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
