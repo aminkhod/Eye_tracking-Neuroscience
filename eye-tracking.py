@@ -113,7 +113,7 @@ print("Logestic Regression sensitivity = "+str(tpr)+"and Logestic Regression spe
 plt.plot(fpr,tpr,label="Logistic Regression, AUC = "+str(auc))
 # plt.title("Logistic Regression ROC Curve")
 plt.legend(loc=4)
-# plt.show()
+plt.show()
 
 ####GaussianNB
 
@@ -162,7 +162,7 @@ print("Gaussian Naive Bayes sensitivity = "+str(tpr)+"and Gaussian Naive Bayes s
 plt.plot(fpr,tpr,label="Gaussian Naive Bayes, AUC = "+str(auc))
 # plt.title("Gaussian Naive Bayes ROC Curve")
 plt.legend(loc=4)
-# plt.show()
+plt.show()
 
 
 
@@ -218,8 +218,9 @@ fpr, tpr, _ = metrics.roc_curve(y,  predict)
 auc = metrics.roc_auc_score(y, predict)
 print("SVM sensitivity = "+str(tpr)+"and SVM specificity = "+str(fpr))
 plt.plot(fpr,tpr,label="SVM, AUC = "+str(auc))
-# plt.title("Support Vector Machine ROC Curve")
+plt.title("Support Vector Machine ROC Curve")
 plt.legend(loc=4)
 plt.show()
+# plt.waitforbuttonpress(100000)
 
 print(1+1)
