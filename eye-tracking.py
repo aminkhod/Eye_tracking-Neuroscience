@@ -10,10 +10,9 @@ from sklearn.model_selection import LeaveOneOut
 from sklearn.naive_bayes import GaussianNB
 from sklearn import svm
 
-
 ### reading data
 missing_value = ["?", " "]
-data = pd.read_csv("computerized.csv", na_values=missing_value, delimiter=",")
+data = pd.read_csv("eye-tracking.csv", na_values=missing_value, delimiter=",")
 
 print(data.isnull().sum())
 # CDT column is eliminated because this culomn is empty.
@@ -31,8 +30,8 @@ data3.dropna(inplace=True)
 
 X = data1.values[:,2:]
 y = data1.values[:,1]
-# X = X.astype(np.float64)
-# y = y.astype(np.float64)
+X = X.astype(np.float64)
+y = y.astype(np.float64)
 
 # X=data3.values[:,2:]
 # y=data3.values[:,1]
