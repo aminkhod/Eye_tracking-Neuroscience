@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="490d1037-bfc4-4313-b302-4a6dae77db61" name="Default Changelist" comment="" />
+    <list default="true" id="490d1037-bfc4-4313-b302-4a6dae77db61" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/eye-tracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/eye-tracking.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FUSProjectUsageTrigger">
     <session id="120756152">
       <usages-collector id="statistics.lifecycle.project">
@@ -30,13 +33,15 @@
       </usages-collector>
     </session>
   </component>
+=======
+>>>>>>> 5d5a7f2a58df314ddf636457617c89bba48dc962
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classifying of Chehrenegar Data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3400">
-              <caret line="205" selection-start-line="205" selection-end-line="205" />
+            <state relative-caret-position="2975">
+              <caret line="180" column="45" selection-start-line="180" selection-start-column="45" selection-end-line="180" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -56,8 +61,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eye-tracking.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="170">
               <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+=======
+            <state relative-caret-position="241">
+              <caret line="224" lean-forward="true" selection-start-line="224" selection-end-line="224" />
+>>>>>>> 5d5a7f2a58df314ddf636457617c89bba48dc962
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -83,6 +93,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -105,6 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,14 +128,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Program Files/Python36/Lib/site-packages/sklearn/neural_network/multilayer_perceptron.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="C:/Program Files/R/R-3.6.0/bin" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.splitter.proportion" value="0.24874625" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -228,31 +240,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+=======
+    <frame x="-8" y="-8" width="1168" height="850" extended-state="6" />
+    <editor active="true" />
+>>>>>>> 5d5a7f2a58df314ddf636457617c89bba48dc962
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16294643" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17418772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Python Console" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50074404" side_tool="true" weight="0.39934534" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50180507" side_tool="true" weight="0.32775453" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49819493" weight="0.32775453" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.49925596" weight="0.49436393" />
+      <window_info active="true" anchor="bottom" id="Debug" order="10" sideWeight="0.49819493" visible="true" weight="0.49372384" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -404,63 +418,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/eye-tracking.py</url>
-          <line>67</line>
+          <line>225</line>
           <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/eye-tracking.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/eye-tracking.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/eye-tracking.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/eye-tracking.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/eye-tracking.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/eye-tracking.py</url>
-          <line>99</line>
-          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/eye-tracking.py</url>
           <line>109</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/eye-tracking.py</url>
-          <line>148</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/eye-tracking.py</url>
-          <line>158</line>
+          <line>119</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/eye-tracking.py</url>
-          <line>206</line>
+          <line>158</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/eye-tracking.py</url>
-          <line>215</line>
+          <line>168</line>
           <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/eye-tracking.py</url>
+          <line>216</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -482,27 +466,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/neural_network/_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="251" column="18" lean-forward="true" selection-start-line="251" selection-start-column="18" selection-end-line="251" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/neural_network/multilayer_perceptron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="902" column="43" selection-start-line="902" selection-start-column="40" selection-end-line="902" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/linear_model/logistic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="437" selection-start-line="437" selection-end-line="437" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/neural_network/_base.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/neural_network/multilayer_perceptron.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/linear_model/logistic.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -511,38 +477,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pyton review/Session1/If ... Else.py" />
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/utils/validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="581" selection-start-line="581" selection-end-line="581" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/utils/multiclass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="269" column="27" selection-start-line="269" selection-start-column="27" selection-end-line="269" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/utils/validation.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/utils/multiclass.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/metrics/ranking.py" />
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/metrics/classification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="673">
+          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/metrics/ranking.py">
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/model_selection/_split.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="396" selection-start-line="396" selection-end-line="396" />
+        <state relative-caret-position="112">
+          <caret line="1781" selection-start-line="1781" selection-end-line="1781" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classifying of Chehrenegar Data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3400">
-          <caret line="205" selection-start-line="205" selection-end-line="205" />
+        <state relative-caret-position="2975">
+          <caret line="180" column="45" selection-start-line="180" selection-start-column="45" selection-end-line="180" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -556,15 +511,44 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/AUC.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+=======
+    <entry file="file://C:/Program Files/Python36/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="1176" selection-start-line="1176" selection-end-line="1176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eye-tracking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="224" lean-forward="true" selection-start-line="224" selection-end-line="224" />
+>>>>>>> 5d5a7f2a58df314ddf636457617c89bba48dc962
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
