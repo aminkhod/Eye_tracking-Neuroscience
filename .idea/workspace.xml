@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aeb6bc0a-3932-4ca5-92b9-fea145c77ab5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Eye_tracking-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Eye_tracking-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eye_tracking.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Eye_tracking.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/eye-tracking.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/eye-tracking.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
