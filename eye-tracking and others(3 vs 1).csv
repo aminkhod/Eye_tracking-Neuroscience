@@ -1,4 +1,4 @@
 method,accuracy,sensitivity,specificity
-Logistic Regression,1.0,1.0,1.0
-Gaussian Naive Bayes,1.0,1.0,1.0
-Support Vector Machine,1.0,1.0,1.0
+Logistic Regression,0.9117647058823529,0.7894736842105263,0.9591836734693877
+Gaussian Naive Bayes,0.8970588235294118,0.8947368421052632,0.8979591836734694
+Support Vector Machine,0.9411764705882353,0.7894736842105263,1.0
